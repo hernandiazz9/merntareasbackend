@@ -9,7 +9,7 @@ module.exports = function (req, res, next) {
     
     //revisar si no hay token
     if(!token){
-        return res.status(401).json({msg: 'no hay token'})
+        return res.status(401).json({msg: 'No hay token, Permiso no VALIDO'})
     }
 
     //validar token
@@ -18,7 +18,7 @@ module.exports = function (req, res, next) {
         req.usuario = cifrado.usuario;
         next();
     } catch (error) {
-        res.status(401).json ({ msg: 'token no valido'})
+        res.status(401).json ({ msg: 'Token no válido'})
     }
 
 }
