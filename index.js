@@ -9,9 +9,6 @@ const app =  express();
 //conectar la base de datos
 conectarDB();
 
-//habilitar cors
-app.use(cors());
-
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
@@ -19,6 +16,10 @@ app.use((req, res, next) => {
     res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
     next();
 });
+//habilitar cors
+// app.use(cors());
+
+
 
 
 //habilitar exoress.json
