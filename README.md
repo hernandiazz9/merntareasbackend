@@ -1,6 +1,9 @@
 # Administrador de Tareas - React, Redux, REST API & Axios.
 
-_Aplicacion Web para llevar un control de tus tareas, crea un usuario y comienza a escribir tus tareas guardando la informacion en una base de datos._
+_Aplicacion Web para llevar un control de tus **proyectos** cargando **tareas** para cada uno, crea un usuario agrega un proyecto y comienza a escribir tus tareas guardando la informacion en una base de datos._
+
+<img width="1624" alt="Screen Shot 2021-10-22 at 12 11 36" src="https://user-images.githubusercontent.com/62017712/138479346-481537d7-ab93-47fb-8191-96bf73aeb77b.png">
+
 
 ## Comenzando 🚀
 
